@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: white;
+  color: black;
+  background-color: antiquewhite;
+}
+
+
+
+.Home {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    text-align: center;
+}
+
+.Home:hover {
+    color: blue;
+    transition: .3s;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.step {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
